@@ -72,7 +72,7 @@
         ]
     },
     {
-        "nombre": "folklore",
+        "nombre": "Folklore",
         "artista": "Taylor Swift",
         "id": 111,
         "portada": "https://i.scdn.co/image/ab67616d0000b27395f754318336a07e85ec59bc",
@@ -139,6 +139,74 @@
             },
             {
                 "nombre": "hoax",
+                "duracion": 211
+            }
+        ]
+    },
+    {
+        "nombre": "El mismo aire",
+        "artista": "La conga",
+        "id": 108,
+        "portada": "https://i.scdn.co/image/ab67616d0000b273cc4d3e2cc70f5a3934d61e1e",
+        "pistas": [
+            {
+                "nombre": "El mismo aire",
+                "duracion": 190
+            },
+            {
+                "nombre": "Te equivocaste",
+                "duracion": 248
+            },
+            {
+                "nombre": "Si cruzas la Puerta",
+                "duracion": 236
+            },
+            {
+                "nombre": "Ya no mas",
+                "duracion": 186
+            },
+            {
+                "nombre": "Cicatrices",
+                "duracion": 206
+            },
+            {
+                "nombre": "Nunca me olvidaras",
+                "duracion": 199
+            },
+            {
+                "nombre": "Me vas a ver",
+                "duracion": 190
+            },
+            {
+                "nombre": "Tengo que colgar",
+                "duracion": 195
+            },
+            {
+                "nombre": "Ya no siento nada",
+                "duracion": 243
+            },
+            {
+                "nombre": "Se que duele",
+                "duracion": 190
+            },
+            {
+                "nombre": "Hasta cuando",
+                "duracion": 256
+            },
+            {
+                "nombre": "Dueles",
+                "duracion": 237
+            },
+            {
+                "nombre": "No voy a detenerte",
+                "duracion": 198
+            },
+            {
+                "nombre": "A lo mejor",
+                "duracion": 190
+            },
+            {
+                "nombre": "Para que lastimarme",
                 "duracion": 211
             }
         ]

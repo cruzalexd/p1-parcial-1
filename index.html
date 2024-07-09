@@ -3,28 +3,70 @@
     <head>
         <meta charset="utf-8" />
         <!-- Reemplazar por los datos que correspondan -->
-        <title>Programación I | Parcial 1 | APELLIDO, NOMBRE | APELLIDO, NOMBRE</title>
+        <title>Programación I | Parcial 1 | CRUZ, Alex</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no" />
         <link rel="shortcut icon" href="favicon.ico" />
         <link rel="stylesheet" href="styles/styles.css" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <!-- <script src="cancion.js"></script>
+        <script src="disco.js"></script> -->
+        
     </head>
-    <body>
-        <header>
+    <body class="bg-dark">
+        <header class="text-white">
             <!-- Reemplazar por los datos que correspondan -->
-            <h1>Programación I | Parcial 1 | APELLIDO, NOMBRE | APELLDIO, NOMBRE</h1>
+            <h1>Programación I - Parcial 1 - CRUZ, Alex</h1>
         </header>
-        <main>
+        <main class="bg-danger-subtle"><!--No entiendo porque aca no aplico el negro, el main tendria que tmb estar afectado-->
             <h2>Mis discos</h2>
-            <button onclick="cargar();">Cargar nuevo disco</button>
-            <button onclick="mostrar();">Mostrar discos</button>
-            <div id="discos">
+            <!-- <button onclick="cargar();">Cargar nuevo disco</button> -->
+            <button onclick="cargarDisco()">Cargar nuevo disco</button>
+            <!-- <button onclick="mostrar()">Mostrar discos</button> -->
+            <button onclick="mostrarDisco()">Mostrar discos</button>
+            
+            
+            <!-- <div class="d-flex flex-wrap justify-content" id="discos">
+                
+            </div> -->
+
+            <div class="d-flex flex-wrap justify-content " id="discos">
+                
                 <!--
                     Aca podrian mostrar los discos
                 -->
             </div>
+
+
+            <!-- <div>
+
+                <div class="card" style="width: 18rem;">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">An item</li>
+                    <li class="list-group-item">A second item</li>
+                    <li class="list-group-item">A third item</li>
+                  </ul>
+                  <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                  </div>
+                </div>
+            </div> -->
+
+            
+            
+            <script src="cancion.js"></script>
+            <script src="disco.js"></script>
+            <script src="script.js"></script>
             <script src="scripts/index.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
         </main>
-        <footer>
+        
+        <footer class="bg-dark text-white">
             <ul>
                 <li>Profesor Fabrizio Carlassara</li>
                 <li>
@@ -33,7 +75,7 @@
                 <li>Programación 1</li>
                 <li>
                     <!-- Reemplazar por el link del repositorio de GitHub -->
-                    <a href="#">URL del repo de GitHub</a>
+                    <a href="https://github.com/cruzalexd/p1-parcial-1.git" target="_blank">URL repo GitHub - Alex Cruz</a>
                 </li>
             </ul>
         </footer>
